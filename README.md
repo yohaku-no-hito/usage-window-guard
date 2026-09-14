@@ -73,8 +73,11 @@ Claude Code が `statusLine` コマンドの stdin に渡す `rate_limits` を�
 
 ### CLAUDE_CONFIG_DIR
 
-CLAUDE_CONFIG_DIR is supported.
-If it is set, usage-window-guard stores its config, cache, and state under that directory instead of ~/.claude. If it is not set, the default ~/.claude directory is used.
+`CLAUDE_CONFIG_DIR` に対応しています。
+
+設定されている場合、usage-window-guard の設定・キャッシュ・状態ファイルは
+`~/.claude` ではなく `CLAUDE_CONFIG_DIR` 配下に保存されます。
+未設定の場合は、従来どおり `~/.claude` を使用します。
 
 ## カスタマイズ
 
@@ -92,7 +95,7 @@ If it is set, usage-window-guard stores its config, cache, and state under that 
 
 ## 動作確認済み環境
 
-2026-09-08 時点で Claude Code 2.1.263 の `rate_limits` 形式で動作を確認しています。
+Claude Code 2.1.270 で動作確認済み（2026-09-14）。
 
 Claude Code 側の `statusLine` / hooks / `rate_limits` の仕様は将来変更される可能性があります。動作しない場合の確認ポイントは [SKILL.md](./SKILL.md) に記載しています。
 
