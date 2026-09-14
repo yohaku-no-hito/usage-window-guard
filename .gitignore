@@ -1,0 +1,6 @@
+config.json
+cache.json
+state.json
+*.bak
+statusline-dump.json
+stdin-dump.json
