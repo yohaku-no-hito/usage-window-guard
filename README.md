@@ -108,4 +108,5 @@ Claude Code 側の `statusLine` / hooks / `rate_limits` の仕様は将来変更
 
 ## License
 
-ライセンスは公開時に設定してください。
+MIT License。自由に利用・改変・再配布できます。詳細は [LICENSE](LICENSE) を参照してください。
+
